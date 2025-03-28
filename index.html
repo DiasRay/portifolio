@@ -7,12 +7,13 @@
     <meta name="Rayanne Dias Silva" content="Generation Brasil">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Meu Perfil</title>
 </head>
 <body>
     
     <header>
-        <div id="header-content">
+        <div id="header_content" class="flex">
 
             <div id="titulo">
                 <h1>Generation Brasil</h1>
@@ -39,12 +40,12 @@
 
     <main>
 
-        <section id="about">
+        <section id="about" class="flex-start">
 
             <h2>Sobre a Generation Brasil</h2>
 
-            <div id="conteudo">
-                <img src="./assets/img/user_01.svg" alt="Foto do Autor">
+            <div id="conteudo" class="flex">
+                <img src="./assets/img/user_01.svg" alt="Foto do Autor" class="img_profile">
 
                 <article id="sobre_texto">
                     <p>
@@ -54,11 +55,11 @@
             </div>
         </section>
 
-        <section id="video">
+        <section id="video" class="flex-start">
 
             <h2>Meu vídeo favorito</h2>
 
-            <div id="youtube">
+            <div id="youtube" class="flex">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/_x26hP23wLg?si=3sZdkvmJA3pBD42X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 
                 </iframe>
@@ -66,7 +67,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="flex">
 
 			<!-- Seção de Contato - Redes Sociais-->
             <section id="redes_sociais">
